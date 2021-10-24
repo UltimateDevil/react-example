@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 import {Link} from 'react-router-dom';
+import header from './Header.module.css';
 
 export const Header = () => {
     return (
-        <header>
-            <div>POS Demo</div>
+        <header className={header.header}>
+            <div className={header.logo}>POS Demo</div>
             <nav>
                 <ul>
                     <li>

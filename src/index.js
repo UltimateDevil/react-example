@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import { BrowserRouter } from 'react-router-dom';
+import { DBContextProvider } from './store/db-context';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <DBContextProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </DBContextProvider>,
   document.getElementById('root')
 );

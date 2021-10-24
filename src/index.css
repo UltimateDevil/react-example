@@ -7,7 +7,33 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  margin-left: 300px;
+}
+
+
+.action {
+  margin-top: 1rem;
+}
+
+.action button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #77002e;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #77002e;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.action button:hover,
+.action button:active {
+  background-color: #a50e48;
+  border-color: #a50e48;
+}
+
+.action a {
+  color: white;
+  text-decoration: none;
 }

@@ -1,0 +1,7 @@
+.list_item {
+    list-style: none;
+}
+
+.card {
+    display: flex;
+}
